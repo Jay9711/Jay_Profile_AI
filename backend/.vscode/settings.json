@@ -1,0 +1,20 @@
+{
+    "python.defaultInterpreterPath": "python3",
+    "python.analysis.extraPaths": [
+        ".",
+        "./app"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.stubPath": "./typings",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.sortImports.args": ["--profile", "black"],
+    "files.associations": {
+        "*.py": "python"
+    }
+} 

@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './App.css';
+import HealthStatus from './components/HealthStatus';
 
 function App() {
   const [messages, setMessages] = useState([
@@ -89,6 +90,7 @@ function App() {
     <div className="app">
       <div className="chat-container">
         <div className="chat-header">
+          <HealthStatus />
           <h1>Jay Profile AI</h1>
           <p>Ask me anything about Jay's background, skills, and experience!</p>
         </div>
